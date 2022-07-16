@@ -7,6 +7,7 @@ tunnel.audio.encode=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 persist.vendor.btstack.enable.twsplussho=true
 persist.vendor.btstack.enable.lpa=true
+persist.vendor.bt.a2dp.hal.implementation=true
 
 # Camera
 camera.disable_zsl_mode=true
