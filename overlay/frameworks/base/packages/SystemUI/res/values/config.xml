@@ -53,4 +53,14 @@
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">120</integer>
+     
+    <!-- Icons that don't show in a collapsed non-keyguard statusbar -->
+    <string-array name="config_collapsed_statusbar_icon_blocklist" translatable="false">
+        <item>@*android:string/status_bar_call_strength</item>
+    </string-array>
+
+    <!-- Icons that don't show in a collapsed statusbar on keyguard -->
+    <string-array name="config_keyguard_statusbar_icon_blocklist" translatable="false">
+        <item>@*android:string/status_bar_call_strength</item>
+    </string-array>
 </resources>
