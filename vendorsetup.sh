@@ -1,8 +1,8 @@
 #Hals
 
-rm -rf hardware/qcom-caf/sm8250/display && git clone https://github.com/Alioth-Lab/hardware_qcom_display -b twelve hardware/qcom-caf/sm8250/display
-rm -rf hardware/qcom-caf/sm8250/media && git clone https://github.com/Alioth-Lab/hardware_qcom_media -b twelve hardware/qcom-caf/sm8250/media
-rm -rf hardware/qcom-caf/sm8250/audio && git clone https://github.com/Alioth-Lab/hardware_qcom_audio -b twelve hardware/qcom-caf/sm8250/audio
+rm -rf hardware/qcom-caf/sm8250/display && git clone https://github.com/alioth-org/hardware_qcom-caf_sm8250_display -b twelve hardware/qcom-caf/sm8250/display
+rm -rf hardware/qcom-caf/sm8250/media && git clone https://github.com/alioth-org/hardware_qcom-caf_sm8250_media -b twelve hardware/qcom-caf/sm8250/media
+rm -rf hardware/qcom-caf/sm8250/audio && git clone https://github.com/alioth-org/hardware_qcom-caf_sm8250_audio -b twelve hardware/qcom-caf/sm8250/audio
 
 #Dora clang
 
