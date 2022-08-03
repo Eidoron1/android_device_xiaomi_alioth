@@ -1,4 +1,4 @@
-# Device proprietary files - from alioth MIUI V13.0.3.0.SKHMIXM package, unless pinned
+# Device proprietary files - from alioth MIUI V13.0.4.0.SKHMIXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
