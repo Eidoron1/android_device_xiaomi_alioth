@@ -11,3 +11,9 @@ allow system_app sysfs_thermal:file { write };
 allow system_app sysfs_zram:dir { search }; 
 
 allow system_app zygote:unix_stream_socket getopt;
+
+# Battery Health
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr };
